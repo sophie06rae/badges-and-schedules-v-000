@@ -21,6 +21,7 @@ array_new
 end
 
 def printer(attendees)
-batch_badge_creator.join(" ")
-puts batch_badge_creator
+batch_badge_creator.split(" ").each do |name|
+puts name
+end 
 end
