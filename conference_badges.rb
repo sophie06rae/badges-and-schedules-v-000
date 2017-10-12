@@ -21,10 +21,10 @@ array_new
 end
 
 def printer(attendees)
-  batch_badge_creator(attendees).each do |messages| 
+  batch_badge_creator(attendees).each do |messages|
     puts messages
-  end 
-  assign_rooms(attendees).each do |assignments| 
-    puts assignments 
+  end
+  assign_rooms(attendees).each do |assignments|
+    puts assignments
   end
 end
