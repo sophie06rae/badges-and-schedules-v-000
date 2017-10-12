@@ -23,8 +23,8 @@ end
 def printer(batch_badge_creator, assign_rooms)
 batch_badge_creator.each_line do |line|
   puts line.chomp
-end 
+end
 assign_rooms.each_line do |line|
   puts line.chomp
-end 
+end
 end
