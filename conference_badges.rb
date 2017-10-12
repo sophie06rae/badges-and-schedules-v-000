@@ -21,7 +21,6 @@ array_new
 end
 
 def printer(attendees)
-batch_badge_creator.split(" ").each do |name|
-puts name
-end 
+  batch_badge_creator(attendees).each { |messages| puts messages }
+  assign_rooms(attendees).each  { |assignments| puts assignments }
 end
