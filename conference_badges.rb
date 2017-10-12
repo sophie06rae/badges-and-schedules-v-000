@@ -21,4 +21,6 @@ array_new
 end
 
 def printer(attendees)
+batch_badge_creator.join(" ")
+puts batch_badge_creator
 end
