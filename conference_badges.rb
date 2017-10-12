@@ -24,4 +24,4 @@ def printer(assign_rooms)
 assign_rooms.each do |room|
   puts "#{room}"
 end
-end 
+end
