@@ -20,7 +20,5 @@ attendees.each_with_index do |name, index|
 array_new
 end
 
-def printer(batch_badge_creator, assign_rooms)
-puts "#{batch_badge_creator}"
-puts "#{assign_rooms}"
+def printer(attendees)
 end
