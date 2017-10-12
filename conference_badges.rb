@@ -20,9 +20,8 @@ attendees.each_with_index do |name, index|
 array_new
 end
 
-def printer(attendees)
-attendees.each_with_index do |name, index|
-  puts "Hello, #{name}! You'll be assigned to room #{index + 1}!"
-
-end
+def printer(batch_badge_creator, assign_rooms)
+batch_badge_creator.each_line do |name|
+  puts line.chomp
+end 
 end
