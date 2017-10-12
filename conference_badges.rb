@@ -21,7 +21,7 @@ array_new
 end
 
 def printer(assign_rooms)
-array_new.each do |room|
-  puts "#{room}"
+assign_rooms.each do |room|
+  puts "Hello, #{name}! You'll be assigned to room #{index + 1}!"
 end
 end
